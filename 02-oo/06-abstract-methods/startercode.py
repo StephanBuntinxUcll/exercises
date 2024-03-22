@@ -39,3 +39,11 @@ class F:
     def a(self):
         self.b()
         self.f()
+    
+    @abstractmethod
+    def b(self):
+        pass
+
+    @abstractmethod
+    def f(self):
+        pass
